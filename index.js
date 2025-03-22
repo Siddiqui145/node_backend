@@ -10,6 +10,14 @@ app.get('/twitter', (req, res) => {
     res.send('Siddiqui736')
 })
 
+app.get('/login', (req, res) => {
+    res.send('<h1> Please login in twitter</h1>')
+})
+
+app.get('/youtube', (req, res) => {
+    res.send('<h2> Welcome to Youtube </h2>')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
