@@ -1,0 +1,17 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "Basic Project to deploy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "taha siddiqui",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
